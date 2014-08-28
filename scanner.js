@@ -3,7 +3,7 @@
 var request = require('request');
 var Q = require('q');
 var _ = require('lodash');
-var config = require('config');
+var config = require('./config');
 
 var token;
 
@@ -60,6 +60,9 @@ function getApps(token) {
                     };
                 })
                 .valueOf();
+            // should post apps somewhere here... for now just dump and quit
+            console.log(apps);
+            process.exit(0);
         }
     });
 }
