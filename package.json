@@ -1,0 +1,24 @@
+{
+  "name": "lab-scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scanner.js",
+  "scripts": {
+    "start": "node scanner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connyay/lab-scanner.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/connyay/lab-scanner/issues"
+  },
+  "homepage": "https://github.com/connyay/lab-scanner",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "q": "^1.0.1",
+    "request": "^2.40.0"
+  }
+}

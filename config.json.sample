@@ -1,0 +1,4 @@
+{
+    "host": "openshift.redhat.com",
+    "basicAuth": "Your base64 basic auth here"
+}
